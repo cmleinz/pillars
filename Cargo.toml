@@ -1,0 +1,15 @@
+[package]
+name = "pillars"
+version = "0.0.0"
+edition = "2021"
+authors = ["Caleb Leinz <caleb.m.leinz@gmail.com>"]
+description = "A framework for constructing parallel services governed by an executor"
+readme = "README.md"
+repository = "https://github.com/cmleinz/pillars"
+license = "MIT"
+categories = ["asynchronous"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.32.0", features = ["full"] }
